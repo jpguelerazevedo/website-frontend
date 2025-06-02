@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: transparent;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    background: #fff; /* ou a cor de fundo desejada */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(210, 35, 35);
+}
+
+.navbar a {
+    color: rgb(204, 24, 24);
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+    position: relative;
+    font-weight: 300;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: rgb(210, 18, 18);
+    left: 0;
+    width: 0;
+    top: 100%;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
