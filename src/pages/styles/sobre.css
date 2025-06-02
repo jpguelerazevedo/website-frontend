@@ -1,0 +1,25 @@
+.sobre-container {
+  min-height: 100vh;
+  background-image: url('src/assets/bg2.png');
+  background-size: 100%; /* exemplo de cor diferente, ajuste como quiser */
+  padding: 10%;
+}
+
+.sobre-container h1 {
+  font-size: 3rem;
+  color: #dbdcd4;
+  letter-spacing: 1px;
+}
+
+.sobre-container p {
+  font-size: 1.2rem;
+  color: #dbdcd4;
+}
+
+.sobre-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #dbdcd4;
+    margin-left: 40px;
+    font-style: italic;
+}

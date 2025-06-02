@@ -1,0 +1,54 @@
+
+.home-background {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* impede rolagem horizontal */
+    background-image: url('../../assets/background.png');
+    background-size: 100%;
+}
+
+
+
+.home-container h1 {
+    font-size: 20rem;
+    font-weight: 600;
+    color: #dbdcd4;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.home-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #dbdcd4;
+    margin-top: -100px;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+.home-container button{
+    width: 150px;
+    height: 40px;
+    background-color: hsla(215, 38%, 30%, 0.635);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.home-container button:hover {
+    transform: translateY(-2px);
+    background-color: hsla(215, 37%, 24%, 0.635);;
+}
+.home-container button:active{
+    transform: translateY(2px);
+}
+
+.home-container a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}

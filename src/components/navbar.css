@@ -8,17 +8,17 @@
     display: flex;
     justify-content: space-between;
     z-index: 1000;
-    background: #fff; /* ou a cor de fundo desejada */
+    background: transparent; /* ou a cor de fundo desejada */
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: 500;
-    color: rgb(210, 35, 35);
+    color:#dbdcd4;
 }
 
 .navbar a {
-    color: rgb(204, 24, 24);
+    color: #dbdcd4;
     font-size: 1.2rem;
     margin-left: 1.5rem;
     transition: color 0.3s ease;
@@ -30,7 +30,7 @@
     content: '';
     position: absolute;
     height: 2px;
-    background: rgb(210, 18, 18);
+    background: #dbdcd4;
     left: 0;
     width: 0;
     top: 100%;

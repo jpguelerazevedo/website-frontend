@@ -10,3 +10,14 @@
 a {
   text-decoration: none;
 }
+
+.container {
+  height: 100vh;
+  padding: 10%;
+  /* impede overflow */
+}
+
+body{
+  background-image: url('src/assets/bg.png');
+  background-size: 100%;
+}
