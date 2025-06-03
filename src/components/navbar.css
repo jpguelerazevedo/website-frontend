@@ -2,14 +2,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     color: transparent;
     padding: 15px 10%;
     display: flex;
     justify-content: space-between;
     z-index: 1000;
-    background: transparent;
-    /* ou a cor de fundo desejada */
+    background: transparent; /* leve transparência para destacar sobre o conteúdo */
+    backdrop-filter: blur(2px);
 }
 
 .logo {

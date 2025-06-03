@@ -1,10 +1,17 @@
 .sobre-container {
   min-height: 100vh;
-  background-image: url('src/assets/bg2.png');
+  background-image: url('src/assets/sexo4.png');
   background-size: 100%;
   display: flex;
+  background-position: top;
   /* exemplo de cor diferente, ajuste como quiser */
   padding: 10%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .sobre-container h1 {

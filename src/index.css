@@ -11,12 +11,6 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-image: url('src/assets/bg.png');
-  background-size: 100%;
-}
-
 body, html {
-  overflow: hidden;
   height: 100%;
 }
