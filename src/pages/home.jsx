@@ -7,12 +7,16 @@ function Home() {
   return (
     <div className=" home-container" >
       <h1>CONTAC</h1>
-      <h2>ACESSORIA CONTÁBIL</h2>
-      <button >
-        <Link to="/sobre">
-          Saiba mais
-        </Link>
-      </button>
+      <div style={{ display: 'flex', flexDirection: 'column', marginTop: '-100px', marginLeft: '40px' }}>
+        <h2 style={{}}>ACESSORIA CONTÁBIL</h2>
+        <button style={{ marginTop: '1rem' }}>
+          <Link to="/sobre">
+            Saiba mais
+          </Link>
+        </button>
+      </div>
+      <p style={{ marginTop: '7rem', marginLeft: '40px' }}>Desde 2005, a Contac transforma desafios <br />em prosperidade.</p>
+
     </div>
   )
 }

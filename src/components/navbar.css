@@ -8,13 +8,15 @@
     display: flex;
     justify-content: space-between;
     z-index: 1000;
-    background: transparent; /* ou a cor de fundo desejada */
+    background: transparent;
+    /* ou a cor de fundo desejada */
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: 500;
-    color:#dbdcd4;
+    font-style: italic;
+    color: #dbdcd4;
 }
 
 .navbar a {

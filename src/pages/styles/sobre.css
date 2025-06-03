@@ -1,7 +1,9 @@
 .sobre-container {
   min-height: 100vh;
   background-image: url('src/assets/bg2.png');
-  background-size: 100%; /* exemplo de cor diferente, ajuste como quiser */
+  background-size: 100%;
+  display: flex;
+  /* exemplo de cor diferente, ajuste como quiser */
   padding: 10%;
 }
 
@@ -17,9 +19,15 @@
 }
 
 .sobre-container h2 {
-    font-size: 2rem;
-    font-weight: 500;
-    color: #dbdcd4;
-    margin-left: 40px;
-    font-style: italic;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #dbdcd4;
+  font-style: italic;
+}
+
+.sobre-container h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #dbdcd4c5;
+  font-style: italic;
 }

@@ -1,4 +1,3 @@
-
 .home-background {
     margin: 0;
     padding: 0;
@@ -8,6 +7,11 @@
     background-size: 100%;
 }
 
+.home-container {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .home-container h1 {
@@ -22,12 +26,10 @@
     font-size: 2rem;
     font-weight: 500;
     color: #dbdcd4;
-    margin-top: -100px;
-    margin-left: 40px;
     font-style: italic;
 }
 
-.home-container button{
+.home-container button {
     width: 150px;
     height: 40px;
     background-color: hsla(215, 38%, 30%, 0.635);
@@ -40,15 +42,22 @@
 
 .home-container button:hover {
     transform: translateY(-2px);
-    background-color: hsla(215, 37%, 24%, 0.635);;
+    background-color: hsla(215, 37%, 24%, 0.635);
+    ;
 }
-.home-container button:active{
+
+.home-container button:active {
     transform: translateY(2px);
 }
 
-.home-container a{
+.home-container a {
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
     color: white;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #dbdcd4;
 }
