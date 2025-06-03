@@ -1,4 +1,4 @@
-# Fronted de uma empresa de contabilidade
+# Frontend da Contac Acessoria Contábil
 
 - Esta aplicação é uma pagina web sobre a empresa Contac de contabilidade.
 
