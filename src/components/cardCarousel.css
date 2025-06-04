@@ -3,19 +3,36 @@
     font-size: 1.3rem !important;
     font-weight: bold !important;
     color: #edeee9 !important;
+    animation: fadeInText 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
 
 }
 
 /* Custom Swiper pagination bullets */
 .card-carousel-swiper .swiper-pagination-bullet {
     background: #888888 !important;
-    opacity: 1 !important;
+    opacity: 0;
     width: 12px !important;
     height: 12px !important;
     margin: 0 6px !important;
     transition: background 0.3s, border 0.3s;
+    animation: fadeInText 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation-delay: 0.4s;
 }
 
 .card-carousel-swiper .swiper-pagination-bullet-active {
     background: #dbdcd4 !important;
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(48px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

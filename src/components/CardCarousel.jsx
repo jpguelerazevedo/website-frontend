@@ -30,7 +30,7 @@ const CardCarousel = ({ cards }) => {
             className="card-carousel-swiper"
         >
             {cards.map((card, idx) => (
-                <SwiperSlide key={idx} style={{ width: 340, maxWidth: '90vw', display: 'flex', justifyContent: 'center' }}>
+                <SwiperSlide key={idx} style={{ width: 400, maxWidth: '90vw', display: 'flex', justifyContent: 'center' }}>
                     {card}
                 </SwiperSlide>
             ))}

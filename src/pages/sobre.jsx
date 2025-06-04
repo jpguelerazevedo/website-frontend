@@ -70,6 +70,9 @@ const Sobre = () => {
             boxShadow: 'none',
             pointerEvents: 'none',
             userSelect: 'none',
+            animation: 'fadeInRightToLeftServico 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards',
+            animationDelay: '0.4s',
+            opacity: 0,
           }}
         />
       </div>

@@ -26,7 +26,7 @@
     flex-direction: column;
     background-position: top center;
     padding: 10%;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -41,7 +41,7 @@
 
 .servicos-container p {
     font-size: 1.2rem;
-    color: #dbdcd4;
+    color: #6d6d65;
 }
 
 .servicos-container h2 {
@@ -52,8 +52,34 @@
 }
 
 .servicos-container h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    color: #dbdcd4c5;
-    font-style: italic;
+    color: #3d3f3e;
+}
+
+.servicos-container h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3d3f3e;
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(48px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+ul,
+.ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
