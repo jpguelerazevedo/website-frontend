@@ -1,0 +1,21 @@
+.card-carousel-swiper .swiper-button-next:after,
+.card-carousel-swiper .swiper-button-prev:after {
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+    color: #edeee9 !important;
+
+}
+
+/* Custom Swiper pagination bullets */
+.card-carousel-swiper .swiper-pagination-bullet {
+    background: #888888 !important;
+    opacity: 1 !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0 6px !important;
+    transition: background 0.3s, border 0.3s;
+}
+
+.card-carousel-swiper .swiper-pagination-bullet-active {
+    background: #dbdcd4 !important;
+}
