@@ -1,9 +1,10 @@
 import React from 'react';
 import '../pages/styles/sobre.css';
+import sexoImg from '../assets/sexo.png';
 
 const Sobre = () => {
   return (
-    <div className="sobre-container">
+    <div className="sobre-container" style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start' }}>
       <div style={{
         flex: 1,
         textAlign: 'left',
@@ -15,7 +16,7 @@ const Sobre = () => {
         borderBlockStart: '1px solid #ccc',
       }}>
         <h2>SOBRE.</h2>
-        <div style={{ marginRight: '20%' }}>
+        <div className='hover-div' style={{ marginRight: '20%' }}>
           <h3 style={{ marginTop: '4rem' }}>Da Contabilidade ao Crescimento Estratégico</h3>
           <p style={{ marginLeft: '10px', textAlign: 'justify' }}>
             Na Contac, transformamos a contabilidade em um motor de crescimento.
@@ -42,14 +43,36 @@ const Sobre = () => {
 
           </p>
         </div>
-
-
-
       </div>
-
-
-
-
+      <div style={{
+        flex: '0 0 auto',
+        display: 'flex',
+        alignItems: 'flex-start',
+        position: 'absolute',
+        right: 0,
+        top: 0,
+        height: '100vh',
+        zIndex: 1
+      }}>
+        <img
+          src={sexoImg}
+          alt="Sobre"
+          style={{
+            height: '100vh',
+            width: 'auto',
+            minWidth: 'unset',
+            marginRight: '4rem',
+            marginTop: '5rem',
+            marginLeft: 0,
+            borderRadius: 0,
+            maxHeight: '100vh',
+            objectFit: 'contain',
+            boxShadow: 'none',
+            pointerEvents: 'none',
+            userSelect: 'none',
+          }}
+        />
+      </div>
     </div>
   );
 };

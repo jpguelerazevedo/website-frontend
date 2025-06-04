@@ -1,0 +1,50 @@
+/* Estilos básicos inspirados no sobre.css */
+
+.servicos-container {
+    min-height: 100vh;
+    background-image: url('../../assets/Desktop.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: top center;
+    padding: 10%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.servicos-container h1 {
+    font-size: 3rem;
+    color: #dbdcd4;
+    letter-spacing: 1px;
+}
+
+.servicos-container p {
+    font-size: 1.2rem;
+    color: #dbdcd4;
+}
+
+.servicos-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #dbdcd4;
+    font-style: italic;
+}
+
+.servicos-container h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #dbdcd4c5;
+    font-style: italic;
+}
+
+.servicos-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: stretch;
+}

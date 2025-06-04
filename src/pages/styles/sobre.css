@@ -1,6 +1,6 @@
 .sobre-container {
   min-height: 100vh;
-  background-image: url('src/assets/sexo4.png');
+  background-image: url('src/assets/Desktop.png');
   background-size: 100%;
   display: flex;
   background-position: top;
@@ -14,15 +14,45 @@
   height: 100vh;
 }
 
+@keyframes fadeInSobre {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeftToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .sobre-container h1 {
   font-size: 3rem;
   color: #dbdcd4;
   letter-spacing: 1px;
+  opacity: 0;
+  animation: fadeInSobre 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.1s;
 }
 
 .sobre-container p {
   font-size: 1.2rem;
   color: #dbdcd4;
+  opacity: 0;
+  animation: fadeInLeftToRight 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.2s;
 }
 
 .sobre-container h2 {
@@ -30,6 +60,9 @@
   font-weight: 500;
   color: #dbdcd4;
   font-style: italic;
+  opacity: 0;
+  animation: fadeInLeftToRight 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.3s;
 }
 
 .sobre-container h3 {
@@ -37,4 +70,36 @@
   font-weight: 500;
   color: #dbdcd4c5;
   font-style: italic;
+  opacity: 0;
+  animation: fadeInLeftToRight 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.4s;
 }
+
+/* .hover-div {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-div:hover {
+  transform: translateY(-4px);
+}
+
+.hover-div::after {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-div:hover::after {
+  transform: translateY(4px);
+}
+
+.hover-div:hover,
+.hover-div:hover * {
+  text-shadow: none;
+}
+
+.hover-div:hover p {
+  text-shadow: 0 0 2px #dbdcd4, 0 0 10px #dbdcd4;
+}
+
+.hover-div:hover h3 {
+  text-shadow: 0 0 2px #dbdcd4, 0 0 10px #dbdcd4;
+} */

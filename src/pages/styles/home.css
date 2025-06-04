@@ -45,6 +45,9 @@
     border-radius: 100px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    opacity: 0;
+    animation: fadeInText 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation-delay: 0.5s;
 }
 
 .home-container button:hover {
@@ -67,4 +70,40 @@
 .home-container p {
     font-size: 1.2rem;
     color: #dbdcd4;
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.home-container h1,
+.home-container h2,
+.home-container p,
+.home-container a {
+    opacity: 0;
+    animation: fadeInText 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.home-container h1 {
+    animation-delay: 0.1s;
+}
+
+.home-container h2 {
+    animation-delay: 0.2s;
+}
+
+.home-container p {
+    animation-delay: 0.3s;
+}
+
+.home-container a {
+    animation-delay: 0.4s;
 }

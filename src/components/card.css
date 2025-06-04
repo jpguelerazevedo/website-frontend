@@ -1,0 +1,15 @@
+/* Card genérico para uso em vários componentes */
+.card {
+    background: rgba(30, 40, 60, 0.85);
+    padding: 2rem;
+    min-width: 300px;
+    max-width: 500px;
+    height: 200px;
+    flex: 1 1 300px;
+    margin-bottom: 1rem;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.03);
+}
