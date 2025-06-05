@@ -4,6 +4,7 @@ import Navbar from './components/NavBar'
 import Sobre from './pages/sobre.jsx'
 import Home from './pages/home.jsx'
 import Servicos from './pages/servicos.jsx'
+import Contato from './pages/contato.jsx'
 import './index.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/servicos" element={<Servicos />} />
+        <Route path="/contato" element={<Contato />} />
         {/* Adicione outras rotas conforme necessário */}
       </Routes>
     </div>

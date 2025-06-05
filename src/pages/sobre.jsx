@@ -16,7 +16,7 @@ const Sobre = () => {
         borderBlockStart: '1px solid #ccc',
       }}>
         <h2>SOBRE.</h2>
-        <div className='hover-div' style={{ marginRight: '20%' }}>
+        <div style={{ marginRight: '20%' }}>
           <h3 style={{ marginTop: '4rem' }}>Da Contabilidade ao Crescimento Estratégico</h3>
           <p style={{ marginLeft: '10px', textAlign: 'justify' }}>
             Na Contac, transformamos a contabilidade em um motor de crescimento.
