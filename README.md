@@ -1,6 +1,8 @@
-# Esta aplicação é uma exemplo de frontend executivo.
+# Esta aplicação é uma exemplo de frontend de um site executivo.
 
 - Tecnologias utilizadas:
- - react
- - html
- - css
+  - react
+  - html
+  - css
+ 
+- OBS: ainda falta a responsividade
