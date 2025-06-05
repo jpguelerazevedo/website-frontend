@@ -86,32 +86,3 @@
   animation: fadeInLeftToRight 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   animation-delay: 0.3s;
 }
-
-/* .hover-div {
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover-div:hover {
-  transform: translateY(-4px);
-}
-
-.hover-div::after {
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover-div:hover::after {
-  transform: translateY(4px);
-}
-
-.hover-div:hover,
-.hover-div:hover * {
-  text-shadow: none;
-}
-
-.hover-div:hover p {
-  text-shadow: 0 0 2px #dbdcd4, 0 0 10px #dbdcd4;
-}
-
-.hover-div:hover h3 {
-  text-shadow: 0 0 2px #dbdcd4, 0 0 10px #dbdcd4;
-} */
